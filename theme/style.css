@@ -23,14 +23,22 @@ a, i, input, img, h1, button{
   cursor: url(../design/thumb.png), auto!important;
 }
 
-::-webkit-scrollbar{
-  width: 8px;
-  background: #283618;
+::-webkit-scrollbar {
+  width: 13px;
 }
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(transparent, #022b3a, aliceblue);
-  border-radius: 0px 0px 30px 30px;
+
+::-webkit-scrollbar-track {
+  border: 10px solid #283618;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+
+::-webkit-scrollbar-thumb {
+  background: #edf2f4;
+  border: 3px solid #283618;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
 ::selection{
   color: #faa916;
   background: #283618;
